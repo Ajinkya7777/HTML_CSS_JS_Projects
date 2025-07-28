@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+/* Common Styling */
+.gradient-box {
+  width: 300px;
+  height: 100px;
+  margin: 20px auto;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+/* Top to Bottom */
+.gradient1 {
+  background: linear-gradient(to bottom, yellow, red);
+}
+
+/* Left to Right */
+.gradient2 {
+  background: linear-gradient(to right, blue, pink);
+}
+
+/* Diagonal */
+.gradient3 {
+  background: linear-gradient(45deg, purple, cyan);
+}
+
+.gradient7 {
+  background: linear-gradient(
+    to bottom,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+}
+
+.gradient {
+  background: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0.8),
+    rgba(0, 0, 255, 0.2)
+  );
+}

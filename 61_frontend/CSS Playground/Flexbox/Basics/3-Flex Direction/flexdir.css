@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  margin: 20px;
+}
+
+.container {
+  display: flex;
+  background-color: lightgray;
+  padding: 20px;
+  margin: 20px;
+  gap: 10px;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: steelblue;
+  columns: white;
+  font-size: 24px;
+  text-align: center;
+  padding: 20px;
+  width: 50px;
+  border-radius: 5px;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+.column-reverse {
+  flex-direction: column-reverse;
+}

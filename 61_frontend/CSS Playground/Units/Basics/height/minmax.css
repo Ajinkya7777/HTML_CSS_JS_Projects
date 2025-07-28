@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* Min Height */
+.min-height-box {
+  min-height: 100px;
+  background: lightblue;
+  padding: 10px;
+  border: 1px solid blue;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Max Height */
+.max-height-box {
+  max-height: 300px;
+  background: lightcoral;
+  padding: 10px;
+  border: 1px solid red;
+  overflow: auto;
+  text-align: center;
+}

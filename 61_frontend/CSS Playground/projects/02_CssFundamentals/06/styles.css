@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.5;
+}
+
+.nav {
+  height: 5rem;
+  background: #222;
+  padding: 1rem 0;
+}
+
+.nav-title {
+  font-size: 2rem;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.nav-center {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url("images/background.jpeg") center/cover no-repeat fixed;
+  min-height: calc(100vh - 5rem);
+  /* margin: 0 2rem; */
+}
+
+.hero-center {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 5rem 0;
+  color: #fff;
+}
+
+.hero-center h1 {
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  margin-bottom: 0.75rem;
+}
+
+.hero-center p {
+  max-width: 35em;
+  margin-bottom: 1.5rem;
+}
+
+.hero-btn {
+  background: transparent;
+  border: 1px solid white;
+  padding: 0.75rem 1.25rem;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 2px;
+}

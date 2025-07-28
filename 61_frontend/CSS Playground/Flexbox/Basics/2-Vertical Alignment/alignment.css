@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  margin: 20px;
+}
+
+.container {
+  display: flex;
+  background-color: lightgray;
+  padding: 20px;
+  margin: 20px;
+  gap: 10px;
+  height: 500px;
+}
+
+.box {
+  background-color: steelblue;
+  columns: white;
+  font-size: 24px;
+  text-align: center;
+  padding: 20px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.center {
+  align-items: center;
+}
+
+.space-between {
+  align-items: flex-start;
+}
+
+.space-around {
+  align-items: flex-end;
+}

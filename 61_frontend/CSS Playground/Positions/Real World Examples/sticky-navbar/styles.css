@@ -1,0 +1,43 @@
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Sticky Navbar */
+.navbar {
+  position: sticky;
+  top: 0;
+  background: #333;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Navigation Links */
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 18px;
+}
+
+/* Main Content */
+.content {
+  height: 100vh; /* Each section takes full screen height */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: lightgray;
+  border-bottom: 2px solid #ccc;
+}

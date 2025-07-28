@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+/* Container */
+.container {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  background: lightgray;
+  padding: 20px;
+}
+
+/* Common Styling */
+.box {
+  width: 150px;
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Static */
+.static {
+  background: gray;
+}
+
+/* Relative */
+.relative {
+  position: relative;
+  top: 20px;
+  left: 30px;
+  background: green;
+}
+
+/* Absolute */
+.absolute {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  background: red;
+}
+
+/* Fixed */
+.fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: blue;
+}
+
+/* Sticky */
+.sticky {
+  position: sticky;
+  top: 10px;
+  background: orange;
+}
+
+/* Extra Content for Scrolling */
+.content {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}

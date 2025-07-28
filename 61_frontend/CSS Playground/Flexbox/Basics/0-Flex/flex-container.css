@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+  padding: 20px;
+  gap: 10px;
+}
+
+.box {
+  background-color: steelblue;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  padding: 20px;
+  width: 100px;
+  border-radius: 5px;
+}

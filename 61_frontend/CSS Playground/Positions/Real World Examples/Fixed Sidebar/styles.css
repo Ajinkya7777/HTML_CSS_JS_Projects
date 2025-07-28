@@ -1,0 +1,44 @@
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  display: flex; /* Enables side-by-side layout */
+}
+
+/* Fixed Sidebar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100vh; /* Full height */
+  background: #333;
+  color: white;
+  padding: 20px;
+}
+
+/* Sidebar Links */
+.sidebar nav a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+/* Main Content */
+.content {
+  margin-left: 260px; /* Creates space for the sidebar */
+  padding: 20px;
+}
+
+.content section {
+  height: 100vh; /* Full screen height for scrolling effect */
+  border-bottom: 2px solid #ccc;
+}

@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: black;
+}
+
+.container {
+  border: 1px solid red;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+img {
+  margin-bottom: 10px;
+}
+.parent-container1 {
+  width: 200px;
+}
+
+.fashion {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+
+.parent-container2 {
+  width: 200px;
+  margin-top: 10px;
+}
+
+.coffee {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+
+.parent-container3 {
+  width: 200px;
+}
+
+.soccer {
+  width: 100%;
+  display: block;
+  height: auto;
+}
